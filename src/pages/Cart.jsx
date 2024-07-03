@@ -10,7 +10,7 @@ const Cart = () => {
 
   const EmptyCart = () => {
     return (
-      <div className="container">
+      <div className="container" >
         <div className="row">
           <div className="col-md-12 py-5 bg-light text-center">
             <h4 className="p-3 display-5">Your Cart is Empty</h4>
@@ -65,8 +65,8 @@ const Cart = () => {
                                   src={item.image}
                                   // className="w-100"
                                   alt={item.title}
-                                  width={100}
-                                  height={75}
+                                  width={120}
+                                  height={150}
                                 />
                               </div>
                             </div>
@@ -75,8 +75,7 @@ const Cart = () => {
                               <p>
                                 <strong>{item.title}</strong>
                               </p>
-                              {/* <p>Color: blue</p>
-                              <p>Size: M</p> */}
+                              
                             </div>
 
                             <div className="col-lg-4 col-md-6">
@@ -85,7 +84,7 @@ const Cart = () => {
                                 style={{ maxWidth: "300px" }}
                               >
                                 <button
-                                  className="btn px-3"
+                                  className="btn border px-3"
                                   onClick={() => {
                                     removeItem(item);
                                   }}
@@ -93,10 +92,10 @@ const Cart = () => {
                                   <i className="fas fa-minus"></i>
                                 </button>
 
-                                <p className="mx-5">{item.qty}</p>
+                                <p className="mx-5 p-2 fs-5">{item.qty}</p>
 
                                 <button
-                                  className="btn px-3"
+                                  className="btn border "
                                   onClick={() => {
                                     addItem(item);
                                   }}

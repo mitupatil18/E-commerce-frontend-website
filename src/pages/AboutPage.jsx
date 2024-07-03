@@ -1,5 +1,6 @@
 import React from 'react'
 import { Footer, Navbar } from "../components";
+import { Link } from 'react-router-dom';
 const AboutPage = () => {
   return (
     <>
@@ -23,15 +24,20 @@ Join us in embracing the urban culture. Shop at Urban Trade today and redefine y
             <div className="card h-100">
               <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
               <div className="card-body">
+                <Link to="/product" className='text-decoration-none text-black'>
                 <h5 className="card-title text-center">Mens's Clothing</h5>
-              </div>
+               
+                </Link>
+                </div>
             </div>
           </div>
           <div className="col-md-3 col-sm-6 mb-3 px-3">
             <div className="card h-100">
               <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
               <div className="card-body">
+              <Link to="/product" className='text-decoration-none text-black'>
                 <h5 className="card-title text-center">Women's Clothing</h5>
+              </Link>
               </div>
             </div>
           </div>
@@ -39,7 +45,9 @@ Join us in embracing the urban culture. Shop at Urban Trade today and redefine y
             <div className="card h-100">
               <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
               <div className="card-body">
+                <Link to="/product" className='text-decoration-none text-black'>
                 <h5 className="card-title text-center">Jewelery</h5>
+                </Link>
               </div>
             </div>
           </div>
@@ -47,7 +55,9 @@ Join us in embracing the urban culture. Shop at Urban Trade today and redefine y
             <div className="card h-100">
               <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
               <div className="card-body">
+                <Link to="/product" className='text-decoration-none text-black'>
                 <h5 className="card-title text-center">Electronics</h5>
+                </Link>
               </div>
             </div>
           </div>

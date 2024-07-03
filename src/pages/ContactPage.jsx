@@ -12,8 +12,8 @@ const ContactPage = () => {
       // Reset message status after 2 seconds
       setTimeout(() => {
         setMessageSent(false);
-      }, 1000);
-    }, 1000); // Simulate 2 seconds delay
+      }, 2000);
+    }, 2000); // Simulate 2 seconds delay
   };
 
   return (

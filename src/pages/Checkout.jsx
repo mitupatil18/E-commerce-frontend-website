@@ -266,13 +266,14 @@ const Checkout = () => {
                     </div>
 
                     <hr className="my-4" />
-
+                    <Link to='/orderplaced'>
                     <button
                       className="w-100 btn btn-primary "
-                      type="submit" disabled
+                      type="submit" 
                     >
                       Continue to checkout
                     </button>
+                    </Link>
                   </form>
                 </div>
               </div>

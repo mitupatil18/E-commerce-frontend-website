@@ -68,7 +68,7 @@ const Product = () => {
           <div className="row">
             <div className="col-md-6 col-sm-12 py-3">
               <img
-                className="img-fluid"
+                className="img-fluid mt-5 "
                 src={product.image}
                 alt={product.title}
                 width="400px"
@@ -136,16 +136,13 @@ const Product = () => {
                     src={item.image}
                     alt="Card"
                     height={300}
-                    width={300}
+                    width={200}
                   />
                   <div className="card-body">
                     <h5 className="card-title">
                       {item.title.substring(0, 15)}...
                     </h5>
                   </div>
-                  {/* <ul className="list-group list-group-flush">
-                    <li className="list-group-item lead">${product.price}</li>
-                  </ul> */}
                   <div className="card-body">
                     <Link
                       to={"/product/" + item.id}
@@ -175,7 +172,7 @@ const Product = () => {
         <div className="row">{loading ? <Loading /> : <ShowProduct />}</div>
         <div className="row my-5 py-5">
           <div className="d-none d-md-block">
-          <h2 className="">You may also Like</h2>
+          <h2 className="text-center">You might also Like</h2>
             <Marquee
               pauseOnHover={true}
               pauseOnClick={true}
