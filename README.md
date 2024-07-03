@@ -5,7 +5,7 @@ A Ecommerce Website made with React.js Framework.
 
 ## Demo
 
-[https://reactjs-ecommerce-app.vercel.app/](https://urbantradecompany-au9f21es6-mitupatil18s-projects.vercel.app/)
+[https://urbantradecompany-au9f21es6-mitupatil18s-projects.vercel.app/](https://urbantradecompany-au9f21es6-mitupatil18s-projects.vercel.app/)
 
 ## Features
 
